@@ -5,7 +5,7 @@ News feactures will be add as soon as possible
 
 Here is a demo video
 
-https://user-images.githubusercontent.com/67912928/121941717-87d22380-cd47-11eb-8b69-d289cb31b880.mp4
+
 
 ## Getting Started
 
@@ -26,3 +26,27 @@ Feel free to contribute 😁
 [Linkedin](https://www.linkedin.com/in/ant%C3%B3nio-nicolau-5b7557181/)
 
 [Youtube Channel](https://www.youtube.com/channel/UCEWMpqJBIAjO3Lholi6VsDA)
+
+
+<br/><br/><br/><br/><br/>
+
+수정
+
+android/app/main/AndroidManifest.xml<br/>
+ - android:exported="true"<br/>
+ <br/><br/>
+android/app/build.gradle<br/>
+ -implementation 'androidx.work:work-runtime-ktx:2.7.1'<br/>
+ -sdk를 31로 모두 바꿈 <br/>
+
+ <br/><br/>
+android/build.gradle<br/>
+- ext.kotlin_version = '1.6.21' 수정<br/><br/>
+pubspec.yaml<br/>
+- camera:<br/>
+    git:<br/>
+      url: https://github.com/flutter/plugins<br/>
+      path: packages/camera/camera<br/>
+      ref: 9e46048ad2e1f085c1e8f6c77391fa52025e681f<br/>
+      
+flutter upgrade해줌
