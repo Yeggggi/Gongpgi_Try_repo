@@ -8,7 +8,6 @@
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
 
 # IntelliJ related
 *.iml
@@ -50,7 +49,6 @@ app.*.map.json
 #self setting
 /.dart_tool
 /.idea
-/android
 /ios
 /linux
 /macos
@@ -59,3 +57,4 @@ app.*.map.json
 /windows
 /.metadata
 /analysis_options.yaml
+/getx.iml
